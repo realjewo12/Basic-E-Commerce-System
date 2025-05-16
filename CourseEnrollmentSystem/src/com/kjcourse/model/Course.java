@@ -1,5 +1,13 @@
 package com.kjcourse.model;
 
+/**
+ * Represents a course in the Course Enrollment System.
+ * Each course has a unique code, name, maximum capacity, and keeps track of
+ * the current number of enrolled students.
+ * 
+ * A static counter is used to track the total number of students enrolled across all courses.
+ */
+
 public class Course {
 	
 	// Private instance variables

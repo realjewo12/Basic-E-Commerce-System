@@ -1,9 +1,17 @@
 package com.kjcourse.model;
 
+/**
+ * Represents a pairing of a @link Course with an optional grade for a student.
+ * This class is used in the context of a student's record to track their enrollment 
+ * in a course and the grade (if assigned).
+ * 
+ * A grade may be null initially, indicating that it hasn't yet been assigned.
+ */
+
 public class CourseGrade {
 
 	private Course course;
-	private Float grade;  // Nullable: can be null if not yet assigned
+	private Float grade;  // Can be null if not yet assigned
 
 	// Constructor for course with no grade initially
 	public CourseGrade(Course course) {
